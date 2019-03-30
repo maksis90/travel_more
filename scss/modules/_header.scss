@@ -1,0 +1,77 @@
+
+.header {
+	background: url('../images/header.jpg') top center no-repeat;
+	background-size: cover;
+	height: 100vh;
+	text-align: center;
+
+	&__title {
+		font: 700 48px $font;
+		color: $white;
+		text-transform: uppercase;
+		letter-spacing: 10px;
+		padding-top: 280px;
+		margin-bottom: 10px;
+	}
+
+	&__subtitle {
+		font: 22px/1.1 $font;
+		color: $white;
+		letter-spacing: 10px;
+		margin-bottom: 50px;
+		text-transform: capitalize;
+	}
+
+	&__scroll {
+		cursor: pointer;
+		display: flex;
+		-webkit-flex-direction: column;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		color: $white;
+		
+	
+		a {
+		font: 14px/1.8 $font;
+		text-decoration: none;
+		color: $white;
+		letter-spacing: 3px;
+		}
+
+	}
+
+	&__form {
+		margin: 0 auto;
+		width: 58%;
+		text-align: center;
+		background: $white;
+		margin-bottom: 120px;
+	}
+
+	&__button {
+		width: 22.3%;
+		border: 2px solid $white;
+		background: $blue;
+		color: $white;
+		font: 14px/60px $font-main;
+		vertical-align: middle;
+		text-transform: uppercase;
+		padding-left: 10px;
+	}
+
+	&__search {
+		width: 77%;
+		font: 14px/60px $font;
+		padding-left: 125px;
+	}
+
+	&__icon {
+		font-size: 20px;
+		list-style: 3em;
+		padding-left: 15px;
+	}
+
+
+
+}
+

@@ -1,0 +1,40 @@
+.choose {
+	background: url('../images/choose.jpg') top center no-repeat;
+	background-size: cover;
+	color: $white;
+	
+	&__row {
+		padding-top: 120px;
+	}
+	
+	&__title {
+		padding-top: 80px;
+		font: 36px $font-main;
+		margin-bottom: 60px;		
+	}
+
+	&__text {
+		font: 16px/1.6 $font;
+		margin-bottom: 30px;		
+	}
+
+	&__wrap {
+		padding-bottom: 15px;
+	}
+
+	&__link {
+		text-decoration: none;
+		text-transform: uppercase;
+		font: 16px/1.5 $font;
+		color: $white;
+		background: $blue;
+		opacity: .9;
+		padding: 15px 0  15px 20px;
+		margin-bottom: 150px;
+		width: 225px;
+	}
+
+	&__img {
+		margin-bottom: 5px;
+	}
+}
